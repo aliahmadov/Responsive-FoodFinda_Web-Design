@@ -1,0 +1,783 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Babylonica&family=Benne&family=Electrolize&family=Noto+Serif+Ahom&family=Oswald:wght@700&family=Sassy+Frass&family=Sen:wght@400;700&family=Source+Code+Pro:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Babylonica&family=Benne&family=Electrolize&family=Libre+Franklin:wght@700&family=Noto+Serif+Ahom&family=Oswald:wght@700&family=Sassy+Frass&family=Sen:wght@400;700&family=Source+Code+Pro:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Babylonica&family=Benne&family=Electrolize&family=Lato&family=Libre+Franklin:wght@700&family=Noto+Serif+Ahom&family=Oswald:wght@700&family=Sassy+Frass&family=Sen:wght@400;700&family=Source+Code+Pro:wght@300&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+
+
+/* Header Start */
+
+body {
+    background: url("images\\back_image.png") no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+
+
+header {
+    display: grid;
+    grid-template-columns: auto auto auto auto auto auto;
+    padding: 20px;
+    text-align: center;
+
+}
+
+
+header>section {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+
+}
+
+
+.green {
+    background-color: #8eb50b;
+}
+
+.center {
+    grid-column: 3/5;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 1.5em;
+    color: white;
+    font-family: 'Sen', sans-serif;
+}
+
+header i {
+    margin-right: 10px;
+}
+
+.black {
+    background-color: #252525;
+    font-family: 'Sen', sans-serif;
+    font-size: 1em;
+    color: white;
+}
+
+
+.flexcontainer {
+    display: flex;
+    justify-content: center;
+    background-color: #111111;
+    margin: 0px 20px;
+    opacity: 0.8;
+}
+
+.flexcontainer i {
+    margin-left: 40px;
+}
+
+
+header a {
+    text-decoration: none;
+    text-transform: uppercase;
+    color: white;
+    font-family: 'Sen', sans-serif;
+    font-size: 1.2em;
+    margin-left: 20px;
+    transition: 0.5s;
+}
+
+header a:hover {
+    color: #8eb50b;
+    transition: 0.5s;
+}
+
+
+/* Header end */
+
+
+/* Main Start */
+
+
+main {
+    padding-top: 0px;
+    background: rgba(0, 0, 0, .7);
+    margin: 0 20px;
+    text-align: center;
+    font-family: 'Libre Franklin', sans-serif;
+    color: white;
+    font-size: 3em;
+    white-space: pre-line;
+    letter-spacing: 5px;
+}
+
+/* Main End */
+
+/* Section 1 */
+
+.s1 {
+    background: rgba(0, 0, 0, .7);
+    margin: 0 20px;
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    padding: 10px;
+
+}
+
+::placeholder {
+
+    font-family: 'Sen', sans-serif;
+    letter-spacing: 1px;
+}
+
+.txtb {
+    border-radius: 5px;
+    padding: 10px;
+    text-align: center;
+    font-size: 1.2em;
+    background-color: white;
+    display: inline-block;
+}
+
+.s1>div {
+    position: relative;
+    background-color: white;
+    border-radius: 5px;
+    margin-right: 30px;
+}
+
+.t1 {
+    position: relative;
+    width: 85%;
+    border: 0px;
+}
+
+
+.t2 {
+    width: 50%;
+    text-align: left;
+}
+
+/* Section 1 */
+
+
+/* Section 2 */
+
+.s2 {
+    margin: 0 20px;
+    display: flex;
+    justify-content: center;
+    background-color: rgba(0, 0, 0, 0.8);
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.orderbtn {
+    text-align: center;
+    background-color: #8eb50b;
+    color: white;
+    font-family: 'Sen', sans-serif;
+    font-weight: bold;
+    font-size: 1.2em;
+    padding: 10px 5%;
+    border: 0px;
+    transition: 0.7s;
+}
+
+.orderbtn:hover {
+    background-color: white;
+    color: #8eb50b;
+    transition: 0.7s;
+}
+
+/* Section 2 end */
+
+/* Section 3 start */
+
+.s3 {
+    font-size: 5em;
+    padding-top: 50px;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.8);
+    font-family: 'Sen', sans-serif;
+    display: flex;
+    justify-content: center;
+    margin: 0 20px;
+}
+
+/* Section 3 end */
+
+
+/* Section 4 Start */
+
+.s4 {
+    margin: 0 20px;
+    background-color: rgba(0, 0, 0, 0.8);
+    padding-top: 20px;
+    display: flex;
+    padding-bottom: 20px;
+    justify-content: center;
+    align-items: center;
+}
+
+.s4-container {
+    display: flex;
+    color: white;
+    width: 70%;
+    justify-content: center;
+    flex-wrap: wrap;
+    position: relative;
+}
+
+
+.s4-sub {
+    margin-left: 20px;
+    margin-top: 20px;
+
+}
+
+.s4-box {
+    border: 2px white solid;
+    padding: 20px 30px;
+    height: 35%;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+
+.font {
+    font-family: 'Sen', sans-serif;
+    text-align: center;
+
+}
+
+.big {
+    margin-top: 10px;
+    font-size: 1.7em;
+}
+
+.small {
+    background-color: #8eb50b;
+    color: white;
+    text-transform: uppercase;
+    transition: 0.7s;
+    padding: 10px 15px;
+    letter-spacing: 1px;
+    margin-top: 35px;
+}
+
+.small:hover {
+    background-color: #ff9800;
+    transition: 0.7s;
+    cursor: pointer;
+}
+
+/* Section 4 end */
+
+
+/* Section 5 Start */
+
+.s5 {
+    margin: 0 20px;
+    background-color: rgba(0, 0, 0, .8);
+    padding-top: 30px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding-bottom: 60px;
+}
+
+.s5-container {
+
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+}
+
+.s5-sub {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    margin-top: 30px;
+}
+
+.s5-sub div {
+    margin-left: 20px;
+    margin-top: 15px;
+}
+
+.s5-font {
+    font-family: 'Sen';
+    white-space: pre-line;
+}
+
+.s5head {
+    color: white;
+    font-size: 3em;
+}
+
+.s5title {
+    color: white;
+    font-size: 2.5em;
+}
+
+.s5text {
+    margin-top: 10px;
+    color: #969793;
+}
+
+
+/* Section 5 End */
+
+/* 
+Section 6 Start */
+
+.s6 {
+    margin: 0 20px;
+    background-color: #8eb50b;
+    display: flex;
+    flex-direction: row;
+    padding-top: 40px;
+    justify-content: center;
+    padding-bottom: 60px;
+}
+
+.s6-font {
+    font-family: 'Sen';
+    color: white;
+    white-space: pre-line;
+}
+
+.s6title {
+    font-size: 3.5em;
+
+}
+
+.s6text {
+    font-size: 1em;
+    margin-top: 30px;
+    line-height: 25px;
+}
+
+.rectangle {
+    background-color: white;
+    color: #1a1919;
+    font-family: 'Lato', sans-serif;
+    margin-top: 25px;
+    text-align: center;
+    font-size: 1em;
+    font-weight: bold;
+    width: 40%;
+    padding: 15px 20px;
+}
+
+.s6-left {
+    display: flex;
+    flex-direction: column;
+}
+
+/* Section 6 End */
+
+
+/* Section 7 Start */
+
+.s7 {
+    padding-top: 60px;
+    background-color: rgba(0, 0, 0, 0.8);
+    margin: 0 20px;
+    color: white;
+    font-family: 'Sen';
+    font-size: 3.5em;
+    font-weight: bold;
+    text-align: center;
+
+}
+
+/* Section 7 End */
+
+/* Section 8 Start */
+
+
+.s8 {
+    padding-top: 30px;
+    background-color: rgba(0, 0, 0, 0.8);
+    margin: 0 20px;
+    display: flex;
+    justify-content: center;
+    padding-bottom: 40px;
+}
+
+.s8-font {
+    font-family: 'Sen';
+}
+
+.name {
+    color: #8eb50b;
+    font-weight: bold;
+    font-size: 1.2em;
+}
+
+.s8-box {
+    padding: 5px 10px;
+    font-size: 1em;
+    color: #c4c4c4;
+    line-height: 20px;
+    border: 1px solid white;
+    white-space: pre-line;
+    margin-top: 10px;
+    font-family: 'Sen';
+}
+
+.s8-container {
+    width: 80%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.s8-sub {
+    margin-left: 15px;
+}
+
+/* Section 8 end */
+
+
+/* Section 9 Start */
+
+.s9 {
+    display: flex;
+    justify-content: center;
+    background-color: rgba(0, 0, 0, .8);
+    padding-bottom: 40px;
+}
+
+.s9 button {
+    font-size: 2em;
+    margin-left: 20px;
+    text-align: center;
+    background-color: white;
+    color: black;
+    transition: 0.7s;
+    padding: 5px 10px;
+}
+
+.s9 button:hover {
+    background-color: #8eb50b;
+    color: white;
+    transition: 0.7s;
+}
+
+/* Section 9 End */
+
+
+/* Section 10 Start */
+
+.s10 {
+    display: flex;
+    justify-content: center;
+    background-color: rgba(0, 0, 0, .8);
+    padding-bottom: 40px;
+    margin: 0 20px;
+}
+
+.s10-container {
+    background-color: rgba(0, 0, 0, .8);
+    background: url("images\\back_image.png") no-repeat center center;
+    width: 80%;
+    border-radius: 5px;
+
+}
+
+.s10-sub {
+    background-color: rgba(0, 0, 0, .8);
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.s10-sub input {
+    width: 80%;
+    margin-top: 20px;
+    background-color: white;
+    border: 2px #8eb50b solid;
+    border-radius: 2px;
+    padding: 10px;
+}
+
+.s10-head {
+    color: white;
+    font-family: 'Sen';
+    font-size: 3.5em;
+    font-weight: bold;
+    margin-top: 20px;
+}
+
+.s10-sub-button {
+    color: white;
+    font-family: 'Sen';
+    background-color: #8eb50b;
+    padding: 15px 20px;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    margin-top: 20px;
+    transition: 0.7s;
+    border: 0px;
+}
+
+.s10-sub button:hover {
+    background-color: #ff9800;
+    color: white;
+    transition: 0.7s;
+    cursor: pointer;
+}
+
+.s10-bigbox {
+    margin-top: 35px;
+    display: flex;
+    flex-direction: row;
+    width: 80%;
+    padding: 50px 10px;
+    background-color: white;
+    font-family: 'Sen';
+    border-radius: 10px;
+    justify-content: center;
+    align-items: center;
+}
+
+.s10-box-font {
+    font-size: 2.5em;
+    color: #131212;
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    margin-right: 20px;
+}
+
+/* Section 11 Start */
+
+
+.s11 {
+    margin: 0 20px;
+    background-color: rgba(0, 0, 0, 0.8);
+    padding-top: 20px;
+    padding-bottom: 40px;
+    display: flex;
+    justify-content: center;
+}
+
+.s11-container {
+
+    display: flex;
+    justify-content: center;
+}
+
+.s11-font {
+    font-family: 'Sen';
+    color: white;
+
+}
+
+.s11big {
+    font-weight: bold;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    font-size: 2.5em;
+}
+
+.s11small {
+    margin-top: 20px;
+    font-size: 0.8em;
+    white-space: pre-line;
+    line-height: 20px;
+}
+
+.s11-container div {
+
+    margin-left: 25px;
+}
+
+
+
+.s11-container label {
+    font-family: 'Sen';
+    font-size: 0.9em;
+    color: white;
+}
+
+.s11-green {
+    color: #8eb50b;
+    font-family: 'Sen';
+    font-size: 0.8em;
+    font-weight: bold;
+    margin-bottom: 5px;
+    margin-left: 5px;
+}
+
+
+.s11 i {
+    margin-right: 3px;
+    color: white;
+}
+
+.s11 a {
+    text-decoration: none;
+    margin-top: 5px;
+    font-size: 0.7em;
+    font-family: 'Sen';
+    color: white;
+
+}
+
+/* Section 11 End */
+
+
+
+/* Footer Start  */
+
+
+footer {
+    background-color: #8eb50b;
+    display: flex;
+    align-items: center;
+    font-family: 'Sen';
+    font-size: 1.2em;
+    padding: 20px;
+    color: white;
+    flex-direction: column;
+}
+
+
+
+@media only screen and (max-width:768px) {
+
+    body {
+        background: url("images\\back_image.png") no-repeat fixed;
+    }
+
+    header {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .flexcontainer {
+        flex-direction: column;
+    }
+
+    .s1 {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .t2 {
+        margin-top: 10px;
+        width: 95%;
+        text-align: center;
+    }
+
+    .s1>div {
+        width: 100%;
+        margin: 0;
+    }
+
+    .s3 {
+        font-size: 2.5em;
+    }
+
+    .s4-container {
+        flex-direction: column;
+        flex-wrap: nowrap;
+    }
+
+    .s4-sub {
+        margin-left: 0;
+        margin-top: 30px;
+    }
+
+    .s5-sub {
+        flex-direction: column;
+    }
+
+    .s5-sub div {
+        margin-left: 0;
+    }
+
+    .s5-font {
+        white-space: normal;
+    }
+
+    .s6 {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .s6-font {
+        white-space: normal;
+
+    }
+
+    .s6>:nth-child(2) {
+        margin-left: 15px;
+        margin-top: 30px;
+    }
+
+    .s6-left {
+        align-items: center;
+    }
+
+    .s6title {
+        font-size: 2em;
+
+    }
+
+    .s8-container {
+        padding: 5px;
+        flex-wrap: wrap;
+        align-items: center;
+    }
+
+    .s8-box {
+        white-space: normal;
+    }
+
+    .s8-sub {
+        margin-top: 20px;
+    }
+
+    .s10-box-font {
+        font-size: 1em;
+        margin-right: 5px;
+    }
+
+    .s10-sub-button {
+        padding: 5px;
+    }
+
+    .s10-sub {
+        justify-content: center;
+    }
+
+    .s11-container {
+        flex-wrap: wrap;
+        justify-content: start;
+    }
+
+    .s11-container div {
+
+        margin-left: 15px;
+        margin-top: 15px;
+    }
+
+    footer
+    {
+        font-size: 0.6em;
+    }
+    /* Section 8 End */
+
+
+
+}
