@@ -574,6 +574,7 @@ Section 6 Start */
 
     display: flex;
     justify-content: center;
+    flex-wrap:wrap;
 }
 
 .s11-font {
